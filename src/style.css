@@ -1,0 +1,35 @@
+
+/************ background ************/
+html,body, #homepage{
+    height: 100vh;
+    width: 100%;
+    padding:0vmin;
+    margin:0vmin;
+    background-color: black;
+}
+
+
+/************ navbar ************/
+#navbar{
+    position: absolute;
+    top: 0;
+    flex-direction: row;
+    width: 100%;
+
+    height: 50px;
+    padding:1vmin
+}
+
+#navbar > div{
+
+    display: flex;
+    gap: 5vmin;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+    padding-left: 5vmin;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
