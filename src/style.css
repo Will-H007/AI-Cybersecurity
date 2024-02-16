@@ -14,21 +14,28 @@ html,body, #homepage{
     position: absolute;
     top: 0;
     flex-direction: row;
-    width: 100%;
 
+    align-items: center;
+    width: 100%;
+    display: flex;
     height: 50px;
     padding:1vmin
 }
 
-#navbar > div{
+#logo{
+    font-size: 25px;
+    color:white;
+    padding-left: 3vmin;
+}
+.tags{
 
     display: flex;
     gap: 5vmin;
     justify-content: start;
     align-items: center;
     height: 100%;
-    font-size: 18px;
-    padding-left: 5vmin;
+    font-size: 15px;
+    padding-left: 6vmin;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

@@ -1,7 +1,14 @@
 export default function navbar(element: HTMLDivElement, tags: string[]) {
-    const tagsContainer = document.createElement('div');
 
-    // Create and append tags to the container
+    //  Logo
+    const logo = document.createElement('div');
+    logo.setAttribute("id", "logo")
+    logo.textContent = "Solomon"
+
+    //  Tags
+    const tagsContainer = document.createElement('div');
+    tagsContainer.classList.add('tags');
+
     tags.forEach(tagName => {
         const tagElement = document.createElement('div');
         tagElement.textContent = tagName;
@@ -10,5 +17,6 @@ export default function navbar(element: HTMLDivElement, tags: string[]) {
     });
 
     // Append the tags container to the provided element
+    element.appendChild(logo);
     element.appendChild(tagsContainer);
 }
