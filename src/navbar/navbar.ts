@@ -1,3 +1,4 @@
+
 export default function navbar(element: HTMLDivElement, tags: string[]) {
 
     //  Logo
