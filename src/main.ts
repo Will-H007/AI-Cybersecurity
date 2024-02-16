@@ -10,7 +10,20 @@ const connection_description = "AI getting more mainstream means that it is incr
 
 const tags = ['About', "Impact", "Discover"]
 navbar(document.querySelector<HTMLDivElement>('#navbar')!, tags)
-typeWriter(document.querySelector<HTMLDivElement>('#typewriter')!)
+
+const typewriterElement = document.querySelector<HTMLDivElement>('#typewriter');
+
+if (typewriterElement) {
+    await typeWriter(typewriterElement, 'Born from the AI Era', 40);
+    // Introduce a delay after the typing is complete
+    await new Promise(resolve => setTimeout(resolve, 100));
+    console.log('Typing complete');
+} else {
+    console.error("Element with id 'typewriter' not found.");
+}
+
+typeWriter(document.querySelector<HTMLDivElement>('#company_name')!, 'Ubiquitous',200)
+
 box(document.querySelector<HTMLDivElement>('#distinct_box')!,"Emergence", distinct_description)
 box(document.querySelector<HTMLDivElement>('#connection_box')!,"Connection", connection_description)
 
