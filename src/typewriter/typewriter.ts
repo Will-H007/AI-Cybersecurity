@@ -1,6 +1,6 @@
 export default function typeWriter(element: HTMLDivElement) {
     var i = 0;
-    var txt = 'Born in the AI Era'; /* The text */
+    var txt = 'Born from the AI Era'; /* The text */
     var speed = 40; /* The speed/duration of the effect in milliseconds */
 
 
@@ -20,4 +20,6 @@ export default function typeWriter(element: HTMLDivElement) {
     } else {
         console.error("Element with id 'typewriter' not found.");
     }
+
+    
 }

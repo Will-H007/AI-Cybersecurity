@@ -10,7 +10,8 @@ const connection_description = "AI getting more mainstream means that it is incr
 
 const tags = ['About', "Impact", "Discover"]
 navbar(document.querySelector<HTMLDivElement>('#navbar')!, tags)
+typeWriter(document.querySelector<HTMLDivElement>('#typewriter')!)
 box(document.querySelector<HTMLDivElement>('#distinct_box')!,"Emergence", distinct_description)
 box(document.querySelector<HTMLDivElement>('#connection_box')!,"Connection", connection_description)
-typeWriter(document.querySelector<HTMLDivElement>('#typewriter')!)
+
 
