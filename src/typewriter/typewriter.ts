@@ -1,7 +1,7 @@
 export default function typeWriter(element: HTMLDivElement) {
     var i = 0;
-    var txt = 'Welcome to the New Era'; /* The text */
-    var speed = 50; /* The speed/duration of the effect in milliseconds */
+    var txt = 'Born in the AI Era'; /* The text */
+    var speed = 40; /* The speed/duration of the effect in milliseconds */
 
 
     // Check if the element exists before proceeding

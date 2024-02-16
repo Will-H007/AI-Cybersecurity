@@ -4,7 +4,7 @@ export default function navbar(element: HTMLDivElement, tags: string[]) {
     //  Logo
     const logo = document.createElement('div');
     logo.setAttribute("id", "logo")
-    logo.textContent = "Solomon"
+    logo.textContent = "Ubiquitous"
 
     //  Tags
     const tagsContainer = document.createElement('div');

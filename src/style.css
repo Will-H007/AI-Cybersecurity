@@ -1,13 +1,23 @@
 
 /************ background ************/
-html,body,#homepage{
+html,body{
     height: 100vh;
     width: 100%;
     padding:0vmin;
     margin:0vmin;
     background-color: black;
-}
+    font-family: "Merriweather", serif;
 
+}
+#homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
 
 /************ navbar ************/
 #navbar{
@@ -37,7 +47,7 @@ html,body,#homepage{
     font-size: 15px;
     padding-left: 6vmin;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 /************ Main text ************/
@@ -49,14 +59,76 @@ html,body,#homepage{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     color: white;
   font-size: 7em;
   color: white;
     font-weight: bold;
     font-family: "Merriweather", serif;
+    opacity: 80%;
 
 }
 
   
+/************ thumbnail ************/
+
+.thumbnail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+    width: 90em;
+    gap: 3vmin;
+    border-radius: 50px;
+    padding: 2vmin;
+}
+
+.thumbnail > div{
+    opacity: 80%;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#distinct_box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box_image{
+    display: flex;
+    background-color: aquamarine;
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    justify-content: center;
+}
+
+
+
+ .box_text{
+
+    display: flex;
+    background-color:antiquewhite;
+    height: 30%;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+
+}
+.inner_heading{
+    font-size: 3em;
+}
