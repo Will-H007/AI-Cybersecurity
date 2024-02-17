@@ -79,7 +79,10 @@ html,body{
     border-radius: 5px;
     font-family: "Merriweather", serif;
     opacity: 80%;
-    margin:0vmin
+    margin:0vmin;
+    position: absolute;
+    top: 17em;
+    left: 21em;
 }
 
 
@@ -87,8 +90,66 @@ html,body{
     color: white;
     font-size: 7em;
     margin-bottom: 0.5em;
+
+
 }
   
+/************ About Page ************/
+
+
+#company_introduction{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+    padding: 2em;
+    gap: 2em;
+}
+
+#company_description{
+
+    display: flex;
+
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    width: 50%;
+}
+
+#bull_image{
+    color: white;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+
+}
+#bull_image >img{
+
+    width: 80%;
+}
+
+
+
+/************ Impact Page ************/
+
+#impact_heading{
+    color: white;
+    font-size: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:3em;
+}
+
+
+
 /************ AI Features ************/
 
 .thumbnail{
@@ -101,6 +162,7 @@ html,body{
     gap: 3vmin;
     border-radius: 50px;
     padding: 2vmin;
+    margin-top: 5em;
 }
 
 .thumbnail > div{

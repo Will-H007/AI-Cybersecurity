@@ -16,9 +16,9 @@ export default function typeWriter(element: HTMLDivElement, txt: string, speed: 
                     resolve();
                 }
             }
-
             // Call the typing function to initiate the effect
             type();
+            
         } else {
             // Reject the Promise if the element is not found
             reject(new Error("Element not found"));

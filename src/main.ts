@@ -14,7 +14,7 @@ navbar(document.querySelector<HTMLDivElement>('#navbar')!, tags)
 const typewriterElement = document.querySelector<HTMLDivElement>('#typewriter');
 
 if (typewriterElement) {
-    await typeWriter(typewriterElement, 'Born from the AI Era', 40);
+    await typeWriter(typewriterElement, 'Detecting mimicry', 40);
     // Introduce a delay after the typing is complete
     await new Promise(resolve => setTimeout(resolve, 100));
     console.log('Typing complete');
@@ -22,7 +22,7 @@ if (typewriterElement) {
     console.error("Element with id 'typewriter' not found.");
 }
 
-typeWriter(document.querySelector<HTMLDivElement>('#company_name')!, 'Ubiquitous',200)
+typeWriter(document.querySelector<HTMLDivElement>('#company_name')!, 'Abstraction',200)
 
 box(document.querySelector<HTMLDivElement>('#distinct_box')!,"Emergence", distinct_description)
 box(document.querySelector<HTMLDivElement>('#connection_box')!,"Connection", connection_description)
